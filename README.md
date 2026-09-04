@@ -18,7 +18,7 @@ To integrate `XMediatorObjC` into your Xcode project using Swift Package Manager
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-objc-swift-package", .upToNextMajor(from: "1.170.000"))
+    .package(url: "https://github.com/x3mads/xmediator-objc-swift-package", .upToNextMajor(from: "1.170.100"))
 ]
 ```
 
