@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorObjC", targets: ["XMediatorObjCTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/x3mads/xmediator-swift-package.git", exact: "1.171.1"),
+        .package(url: "https://github.com/x3mads/xmediator-swift-package.git", exact: "1.172.0"),
     ],
     targets: [
         .target(
@@ -22,8 +22,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorObjC",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorObjC/XMediatorObjC-1.171.1.0.zip",
-            checksum: "98856102523cdf5b8364cfcb459872c8209d3556c9337a1a6f6265a9cd64b9a3"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorObjC/XMediatorObjC-1.172.0.0.zip",
+            checksum: "d1455351553cdc514937d17aa835b3d0430aba019fb27d3d0edc5fd3fc6d69cd"
         ),
     ]
 )
